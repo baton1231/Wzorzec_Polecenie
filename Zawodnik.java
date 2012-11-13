@@ -6,7 +6,7 @@ public class Zawodnik {
 	}
 	 
 	public void zacznijBiegac(){
-	System.out.println("zawodnik " + id + " biega" );
+	System.out.println("zawodk " + id + " biega" );
 	}
 	 
 	public void przestanBiegac(){
