@@ -7,7 +7,7 @@ public class Main {
 		Zawodnik z3 = new Zawodnik("Brzeczyszczykiewicz");
 		 
 		Bieganie bieganie = new Bieganie(z1);
-		Plywanie plywanie = new Plywanie(z2);
+		Plywanie plywanie = new Plywanie(z3);
 		 
 		trener.setMode(bieganie);
 		trener.rozkaz();
@@ -17,7 +17,7 @@ public class Main {
 		 
 		System.out.println();
 		 
-		Polecenie []tab = { new Cwiczenie(z3), new Bieganie(z3), new Plywanie(z3)};
+		Polecenie []tab = { new Cwiczenie(z2), new Bieganie(z2), new Plywanie(z2)};
 		PelnyTrening pelnyTrening = new PelnyTrening(tab);
 		trener.setMode(pelnyTrening);
 		trener.rozkaz();
