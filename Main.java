@@ -2,9 +2,9 @@
 public class Main {
 	public static void main(String[]args){
 		Trener trener = new Trener();
-		Zawodnik z1 = new Zawodnik("Kowalski");
-		Zawodnik z2 = new Zawodnik("Nowak");
-		Zawodnik z3 = new Zawodnik("Brzeczyszczykiewicz");
+		Zawodnik z1 = new Zawodnik("Kochañski");
+		Zawodnik z2 = new Zawodnik("Urbanowicz ;)");
+		Zawodnik z3 = new Zawodnik("Wkurzaj¹cy");
 
 		Bieganie bieganie = new Bieganie(z1);
 		Plywanie plywanie = new Plywanie(z3);
